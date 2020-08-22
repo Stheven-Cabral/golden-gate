@@ -22,11 +22,11 @@ div {
 }
 
 #photo {
+  height: 75vh;
+  width: auto;
   position: absolute;
   left: 21%;
   top: 12%;
-  height: 75vh;
-  width: auto;
   box-shadow: 0px 0px 100px #2b2b2b;
   filter: brightness(23%) grayscale(25%);
 }
