@@ -1,0 +1,50 @@
+:root {
+  --white: #fff;
+  --grey: #d8d8da;
+  --red: rgb(255, 72, 0);
+}
+
+body {
+  margin: 0px;
+  background-color: var(--grey);
+}
+
+div {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+}
+
+#bg {
+  height: 100vh;
+  width: 100vw;
+  filter: blur(14px) brightness(75%) grayscale(25%);
+}
+
+#photo {
+  position: absolute;
+  left: 21%;
+  top: 12%;
+  height: 75vh;
+  width: auto;
+  box-shadow: 0px 0px 100px #2b2b2b;
+  filter: brightness(23%) grayscale(25%);
+}
+
+h1 {
+  margin: auto;
+  position: absolute;
+  top: 39%;
+  left: 23.5%;
+  font-family: 'Monoton', cursive;
+  font-size: 8em;
+  font-weight: 100;
+  color: var(--white);
+  text-shadow: 
+  0 0 5px var(--white),
+  0 0 10px var(--white),
+  0 0 20px var(--red),
+  0 0 40px var(--red),
+  0 0 80px var(--red),
+  0 0 160px var(--red);
+}
